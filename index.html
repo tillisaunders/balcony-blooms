@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Balcony Garden Sim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>My Balcony Garden</h1>
+        <div id="stats">Money: $<span id="money">10</span></div>
+        <div id="balcony">
+            <div id="pot" class="pot">
+                <button onclick="plantSeed()">Plant Seed ($5)</button>
+                <div id="plant-display">Empty Pot</div>
+            </div>
+        </div>
+        <button id="action-btn" onclick="tendPlant()">Water Plant</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
